@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <%- include('./header/cdns.ejs')  %> 
+</head>
+<body>
+    <%- include('./header/navbar.ejs')  %> 
+    <div class="container-lg ">
+    <div class="d-flex flex-wrap  justify-content-between mt-4 p-1 ">
+      <% list.forEach(function(lists) { %>
+        
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3  ">
+        <img src="<%= lists.img  %> " class="card-img-top" style="height: 250px;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><%= lists.title  %> </h5>
+          <p class="card-text"><span>color: </span><%= lists.color %></p>
+          <p class="card-text"><span>size: </span><%= lists.size %></p>
+          <p class="card-text"><span>material: </span><%= lists.material %></p>
+          <a href="#" class="btn btn-primary">BUY</a>
+          <span><%= lists.price  %> </span>
+        </div>
+      </div>
+    
+      <% }); %>
+    </div>
+    </div>
+  
+      <!-- <script src="../public/scripts/card.js"></script> -->
+</body>
+</html>

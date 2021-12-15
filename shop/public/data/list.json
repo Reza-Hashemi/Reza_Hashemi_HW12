@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "title": "nike airmax",
+        "describe": "new shoes 2020",
+        "material": "leather",
+        "color": "blue",
+        "size": "42",
+        "price": "320$",
+        "img": "/image/1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "addidas air",
+        "describe": "best for ever",
+        "material": "jean",
+        "color": "black",
+        "size": "42",
+        "price": "530$",
+        "img": "/image/2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "skechers 2222",
+        "describe": "the best",
+        "material": "wood",
+        "color": "brown",
+        "size": "43",
+        "price": "200$",
+        "img": "/image/3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "nike mm",
+        "describe": "just do it",
+        "material": "leather",
+        "color": "black",
+        "size": "40",
+        "price": "600$",
+        "img": "/image/4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "addidas running",
+        "describe": "you wanna run?",
+        "material": "leather",
+        "color": "white",
+        "size": "42",
+        "price": "620$",
+        "img": "/image/5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "gucci",
+        "describe": "prettier",
+        "material": "leather",
+        "color": "white",
+        "size": "42",
+        "price": "530$",
+        "img": "/image/6.webp"
+    },
+    {
+        "id": 7,
+        "title": "valentino",
+        "describe": "nomber one",
+        "material": "leather",
+        "color": "black",
+        "size": "44",
+        "price": "430$",
+        "img": "/image/7.jpg"
+    },
+    {
+        "id": 8,
+        "title": "dior",
+        "describe": "model 551",
+        "material": "leather",
+        "color": "black",
+        "size": "42",
+        "price": "235$",
+        "img": "/image/8.webp"
+    
+    }
+
+]
